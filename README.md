@@ -4,9 +4,8 @@ Authentication performed using Json Web Tokens and password hashing using bcrypt
 
 ### To Generate Token Strings
 
-Use a new terminal to generate the encrypted keys for Tokens
+Generated the encrypted keys for Tokens using crypto for setting up environment variables
 
 ```js
-node;
 require('crypto').randomBytes(64).toString('hex');
 ```
